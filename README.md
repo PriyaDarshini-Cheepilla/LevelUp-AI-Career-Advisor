@@ -35,45 +35,28 @@ Built for the **OpenAI x NxtWave Buildathon** 🎯
 ---
 
 ## 📂 Project Structure
-
-levelup/
+LevelUp-AI-Career-Advisor/
 │
-├── backend/ # Express + Firebase Admin + OpenAI
-│ ├── index.js
-│ ├── firebase.js
-│ ├── routes/
-│ │ ├── resume.js
-│ │ ├── career.js
-│ │ ├── test.js
-│ │ ├── courses.js
-│ │ ├── jobs.js
-│ │ └── chatbot.js
-│ ├── package.json
-│ └── .env
+├── frontend/                  # Next.js React frontend code
+│   ├── pages/                # Page components and routes
+│   ├── components/           # Reusable UI components
+│   ├── public/               # Static assets
+│   ├── styles/               # CSS or Tailwind styles
+│   ├── .env.local            # Frontend environment variables (ignored in git)
+│   ├── package.json          # Frontend dependencies and scripts
+│   └── next.config.js        # Next.js config file
 │
-├── frontend/ # Next.js + Tailwind + Firebase Auth
-│ ├── app/
-│ │ ├── globals.css
-│ │ ├── layout.js
-│ │ ├── login.js
-│ │ ├── dashboard.js
-│ │ ├── upload.js
-│ │ ├── career.js
-│ │ ├── test.js
-│ │ ├── courses.js
-│ │ ├── jobs.js
-│ │ └── chatbot.js
-│ ├── components/
-│ │ ├── Navbar.js
-│ │ └── RadarChart.js
-│ ├── firebase.js
-│ ├── tailwind.config.js
-│ ├── postcss.config.js
-│ ├── package.json
-│ └── .env.local
+├── backend/                  # Backend code (in Node.js, Express, or Firebase functions)
+│   ├── controllers/          # API controllers and logic
+│   ├── models/               # Database models/schemas
+│   ├── routes/               # REST API routes
+│   ├── .env                  # Backend environment variables (ignored in git)
+│   ├── server.js             # Entry point for server
+│   └── package.json          # Backend dependencies
 │
-├── README.md
-└── .gitignore
+├── .gitignore                # Ignore node_modules, .next, .env files, etc.
+├── README.md                 # Project documentation
+└── LICENSE                   # License file
 
 🎯 Usage Flow
 
