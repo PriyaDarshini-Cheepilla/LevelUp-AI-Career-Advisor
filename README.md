@@ -36,9 +36,9 @@ Built for the **OpenAI x NxtWave Buildathon** 🎯
 
 ## 📂 Project Structure
 LevelUp-AI-Career-Advisor/
-├── frontend/ # Next.js React frontend code
-│ ├── pages/ # Page components and routes
-│ ├── components/ # Reusable UI components
+├── frontend/			 # Next.js React frontend code
+│ ├── pages/ 				# Page components and routes
+│ ├── components/	 # Reusable UI components
 │ ├── public/ # Static assets
 │ ├── styles/ # CSS or Tailwind styles
 │ ├── .env.local # Frontend environment variables (ignored in git)
