@@ -36,28 +36,24 @@ Built for the **OpenAI x NxtWave Buildathon** 🎯
 
 ## 📂 Project Structure
 LevelUp-AI-Career-Advisor/
-│
-├── frontend/                  # Next.js React frontend code
-│   ├── pages/                # Page components and routes
-│   ├── components/           # Reusable UI components
-│   ├── public/               # Static assets
-│   ├── styles/               # CSS or Tailwind styles
-│   ├── .env.local            # Frontend environment variables (ignored in git)
-│   ├── package.json          # Frontend dependencies and scripts
-│   └── next.config.js        # Next.js config file
-│
-├── backend/                  # Backend code (in Node.js, Express, or Firebase functions)
-│   ├── controllers/          # API controllers and logic
-│   ├── models/               # Database models/schemas
-│   ├── routes/               # REST API routes
-│   ├── .env                  # Backend environment variables (ignored in git)
-│   ├── server.js             # Entry point for server
-│   └── package.json          # Backend dependencies
-│
-├── .gitignore                # Ignore node_modules, .next, .env files, etc.
-├── README.md                 # Project documentation
-└── LICENSE                   # License file
-
+├── frontend/ # Next.js React frontend code
+│ ├── pages/ # Page components and routes
+│ ├── components/ # Reusable UI components
+│ ├── public/ # Static assets
+│ ├── styles/ # CSS or Tailwind styles
+│ ├── .env.local # Frontend environment variables (ignored in git)
+│ ├── package.json # Frontend dependencies and scripts
+│ └── next.config.js # Next.js config file
+├── backend/ # Backend code (Node.js, Express, or Firebase)
+│ ├── controllers/ # API controllers and logic
+│ ├── models/ # Database models
+│ ├── routes/ # REST API routes
+│ ├── .env # Backend environment variables (ignored)
+│ ├── server.js # Server entry point
+│ └── package.json # Backend dependencies
+├── .gitignore # Ignored files like node_modules, .env
+├── README.md # Project documentation
+└── LICENSE # License file
 🎯 Usage Flow
 
 1. Login/Register → via Firebase Auth
