@@ -1,8 +1,7 @@
 # 🚀 LevelUp: Personalized Career Companion  
 
 LevelUp is a career guidance platform that empowers students and professionals to **analyze resumes, test skills, recommend courses, track dream jobs, and chat with an AI mentor** — all in one place.  
-
-Built for the **OpenAI x NxtWave Buildathon** 🎯  
+  
 
 ---
 
